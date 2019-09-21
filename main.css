@@ -1,0 +1,296 @@
+
+/* Start nav bar*/
+
+.navbar-brand > span{
+     font-size: 50px;
+    font-family: French Script MT;
+    color: blue;
+    font-weight: bold;
+}
+    
+
+
+
+.navbar-nav .nav-link{
+    margin-left: 30px;
+    font-size: 20px;
+    color:#08526d;
+}
+
+
+/* End nav bar*/
+
+/**/
+
+.backhead{
+    background-image: url("../img/bg.png");
+}
+.backhead .contanier{
+    color:#fff;
+    padding: 20px;
+}
+.backhead .contanier .headtext{
+    margin: auto;
+    text-align: center;
+    margin-top: -140px;
+}
+.backhead .contanier .headtext h2{
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-size: 40px;
+}
+.backhead .contanier .headtext h1{
+    font-size: 62px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.backhead .contanier .headtext h3{
+    text-transform: uppercase;
+    margin-top: 35px;
+    font-size: 35px;
+}
+    
+.backhead  hr{
+     border: 1px solid #bcbcbc;
+}
+.backhead .contanier hr:first-child{
+    width: 70%;
+    margin-top:6%;
+}
+.backhead .contanier hr:nth-of-type(2){
+    width: 0;
+    height: 170px;
+    margin-top: -44px;
+    margin-left: 20%;
+}
+.backhead .contanier hr:nth-of-type(3){
+    width: 70%;
+}
+.backhead .contanier hr:last-child{
+    width: 0;
+    height: 170px;
+    margin-top:-150px;
+    margin-right: 20%;
+}
+
+/**/
+/* */
+.posts .left-item {
+    margin-top: 40px;
+    padding-bottom: 31px;
+    border-bottom: 1px dashed #c1c9df;
+    
+}
+.posts .left-item .title{
+    text-transform: uppercase;
+    background-color: #DDD;
+    width: 130px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.posts .left-item img{
+        width: 100%;
+    height: 445px;
+}
+.posts .left-item button{
+    
+    border: 1px solid #244baf;
+    background-color: #244baf;
+    color: #fff;
+    padding: 6px 17px 6px 17px;
+}
+.posts .left-item h3{
+    font-weight: bold;
+}
+.posts .left-item p{
+    margin-top: 10px;
+    line-height: 20px;
+    color: #676767;
+}
+.posts .left-item h6{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/**/
+
+
+.posts .right-item{
+    background-color: #244baf;
+    color: #FFF;
+    padding: 40px 40px 95px 40px;
+    margin-top: 40px;
+}
+.posts .right-item h2{
+        font-size: 37px;
+    text-transform: uppercase;
+    margin: 17px 0px 17px 0px;
+}
+.posts .right-item img
+{
+    width: 250px;
+    border-radius: 50%;
+}
+.posts .right-item  p{
+    line-height: 26px;
+    color: #f5f3f3;
+}
+.posts .right-item a{
+    color: #FFF;
+    font-size: 21px;
+    text-transform:uppercase;
+    text-decoration: underline;
+    
+}
+
+/**/
+.posts .categories , .posts .blogs , .posts .follow{
+    padding: 25px;
+    border: 1px dashed #244baf;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.posts .categories h2 , .posts .blogs h2, .posts .follow h2{
+    text-transform: uppercase;
+    color: #244baf;
+    font-weight: bold;
+}
+.posts .categories .parent {
+    display: flex;
+    margin: 22px 0px 22px 0px;
+    
+}
+.posts .blogs .parent{
+    display: flex;
+    margin: 22px 0px 0px 0px; 
+}
+.posts .follow .parent  {
+    display: flex;
+    margin: 22px 0px 30px 0px; 
+}
+.posts .categories .parent div:first-child ,.posts .blogs .parent div:first-child , .posts .follow .parent div:first-child{
+     
+    width: 20%;
+    background-color:#244baf;
+    height: 8px;
+    float: left;
+}
+.posts .categories .parent div:last-child ,.posts .blogs .parent div:last-child,.posts .follow .parent div:last-child{
+     width: 80%;
+    height: 2px;
+    background-color: #244baf;
+    float: right;
+    margin-top: 2px;   
+}
+.posts .categories span{
+    float: right;
+    color:#244baf;
+    font-weight: bold;
+}
+.posts .categories p{
+    float: left;
+    margin-top: 10px;
+}
+.posts .blogs .item{
+    display: inline-block;
+        margin-top:20px;
+}
+
+.posts .blogs img{
+    float: left;
+    width: 110px;
+    margin-right: 12px;
+    
+}
+.posts .blogs h6{
+    color:#244baf;
+    font-weight:bold;
+}
+.posts .blogs p{
+    margin-top:7px;
+    color: #595959;
+}
+
+/**/
+.photos {
+    margin-top: 100px;
+}
+.photos img{
+    width:20%;
+    float: left;
+}
+.footer p {
+        color: #444;
+    margin: 35px 35px 35px 0px;
+}
+
+/**/
+@media(max-width:450px){
+
+        .backhead .contanier .headtext h2{
+            margin-bottom: 24px;
+            font-size: 34px;
+        }        
+        .backhead .contanier .headtext h1{
+            font-size: 32px;
+            margin-top: 14px;
+        }
+        .backhead .contanier .headtext h3{
+            font-size: 30px;
+        } 
+        .backhead .contanier hr:first-child{
+               width: 85%;
+           margin: 22% 0% 13% 0%;
+        }
+        
+        .backhead .contanier hr:nth-of-type(2){
+            margin-top: -60px;
+            margin-left: 5%;
+        }
+        .backhead .contanier hr:nth-of-type(3){
+            width: 85%;
+            margin: 12% 8% 0% 15%;
+        }
+        .backhead .contanier hr:last-child{
+            margin-top: -144px;
+            margin-right: 5%;
+        }
+        .posts .left-item .title {
+            width: 120px;
+            height: 32px;
+            line-height: 32px;
+            font-size: 13px;
+        }
+    .posts .left-item h3 {
+        font-size: 22px;
+    }
+    .posts .left-item h6 {
+    font-size: 13px;
+    }
+    
+    .posts .left-item img {
+    height: 350px;
+    }
+    .posts .categories, .posts .blogs, .posts .follow {
+    padding: 18px;
+    }
+    .posts .categories p {
+    font-size: 13px;
+    }
+    .posts .categories span {
+    margin-top: 10px;
+    }
+    .posts .blogs p {
+        margin-top: 0px;}
+    .posts .categories h2, .posts .blogs h2, .posts .follow h2 {
+    font-size: 26px;
+    }
+    .photos img {
+    width: 100%;
+    }
+    .footer p {
+    margin: 33px 35px 35px 17px;
+    }
+}
